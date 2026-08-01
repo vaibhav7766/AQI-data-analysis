@@ -29,6 +29,12 @@ We built a model to predict the next hour's PM10 concentration using meteorologi
 
 **Takeaway**: The naive baseline outperformed the default Random Forest model. This underscores that air quality in the short-term (1-hour ahead) is highly autocorrelated (a random walk). While covariates like wind and temperature drive macro-trends, raw 1-hour look-ahead models require more sophisticated feature engineering (e.g., lagged rolling means) or deep learning (LSTM) to beat a naive persistence model.
 
+## Future Research Directions
+Based on the exploratory analysis and initial modeling, several academic and applied research directions are promising for this dataset:
+1. **Advanced Time-Series Forecasting**: Given that the 1-hour naive baseline is strong, research should focus on multi-step forecasting (e.g., 24-hour to 48-hour ahead) where naive baselines fail. Architectures like LSTMs, Temporal Convolutional Networks (TCNs), or Time-Series Transformers would be suitable.
+2. **Spatial Interpolation and GNNs**: With 21 geographically distributed stations, researchers can construct a spatial graph. Graph Neural Networks (GNNs) could be used to impute missing data (e.g., wind direction) or predict air quality in unmonitored regions of Slovenia.
+3. **Event Detection and Source Apportionment**: Applying unsupervised clustering on the diurnal pollution patterns to identify specific pollution sources (e.g., identifying stations dominated by wood-burning residential heating vs. those dominated by highway traffic emissions).
+
 ## Product Research & Direction
 
 ### E.1 Data-Driven Feasibility
