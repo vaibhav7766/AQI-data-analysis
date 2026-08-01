@@ -1,0 +1,5 @@
+venv
+.venv
+FINDINGS.pdf
+.agents
+analysis/make_nb.py
