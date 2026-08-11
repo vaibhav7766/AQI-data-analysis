@@ -1,0 +1,780 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.1)  11 AUG 2026 21:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**paper.tex
+(./paper.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./llncs.cls
+Document Class: llncs 2022/01/12 v2.21 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count283
+\mult@box=\box53
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count284
+\c@collectmore=\count285
+\doublecol@number=\count286
+\multicoltolerance=\count287
+\multicolpretolerance=\count288
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count289
+\c@columnbadness=\count290
+\c@finalcolumnbadness=\count291
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count292
+\g__mc_curr_col_int=\count293
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count294
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen158
+\tocsecnum=\dimen159
+\tocsectotal=\dimen160
+\tocsubsecnum=\dimen161
+\tocsubsectotal=\dimen162
+\tocsubsubsecnum=\dimen163
+\tocsubsubsectotal=\dimen164
+\tocparanum=\dimen165
+\tocparatotal=\dimen166
+\tocsubparanum=\dimen167
+\@tempcntc=\count295
+\fnindent=\dimen168
+\c@@inst=\count296
+\c@@auth=\count297
+\c@auco=\count298
+\instindent=\dimen169
+\authrun=\box99
+\authorrunning=\toks17
+\tocauthor=\toks18
+\titrun=\box100
+\titlerunning=\toks19
+\toctitle=\toks20
+\c@theorem=\count299
+\c@case=\count300
+\c@conjecture=\count301
+\c@corollary=\count302
+\c@definition=\count303
+\c@example=\count304
+\c@exercise=\count305
+\c@lemma=\count306
+\c@note=\count307
+\c@problem=\count308
+\c@property=\count309
+\c@proposition=\count310
+\c@question=\count311
+\c@solution=\count312
+\c@remark=\count313
+\headlineindent=\dimen170
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count314
+\@cmidlb=\count315
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count316
+\@lastruleclass=\count317
+\@thisrulewidth=\dimen185
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen186
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen187
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count318
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count319
+\leftroot@=\count320
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count321
+\DOTSCASE@=\count322
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box101
+\strutbox@=\box102
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen188
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count323
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count324
+\dotsspace@=\muskip17
+\c@parentequation=\count325
+\dspbrk@lvl=\count326
+\tag@help=\toks23
+\row@=\count327
+\column@=\count328
+\maxfields@=\count329
+\andhelp@=\toks24
+\eqnshift@=\dimen189
+\alignsep@=\dimen190
+\tagshift@=\dimen191
+\tagwidth@=\dimen192
+\totwidth@=\dimen193
+\lineht@=\dimen194
+\@envbody=\toks25
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen195
+\ar@mcellbox=\box103
+\extrarowheight=\dimen196
+\NC@list=\toks27
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box104
+)
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count330
+)
+\MT@toks=\toks28
+\MT@tempbox=\box105
+\MT@count=\count331
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks29
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen197
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count332
+
+(/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip58
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count333
+\multirow@dima=\skip60
+\bigstrutjot=\dimen198
+)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count334
+\LTcapwidth=\dimen199
+\LT@head=\box106
+\LT@firsthead=\box107
+\LT@foot=\box108
+\LT@lastfoot=\box109
+\LT@gbox=\box110
+\LT@cols=\count335
+\LT@rows=\count336
+\c@LT@tables=\count337
+\c@LT@chunks=\count338
+\LT@p@ftn=\toks30
+)
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count339
+) (./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count340
+\scratchdimen=\dimen256
+\scratchbox=\box111
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen257
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks32
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 17.
+Package microtype Info: Applying patch `item' on input line 17.
+Package microtype Info: Applying patch `toc' on input line 17.
+Package microtype Info: Applying patch `eqnum' on input line 17.
+Package microtype Info: Applying patch `footnote' on input line 17.
+Package microtype Info: Applying patch `verbatim' on input line 17.
+LaTeX Info: Redefining \microtypesetup on input line 17.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-s
+uper/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/cmr/bx/n/9 (+20) Dataset /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T1/cmr/bx/n/9 (+20) Dataset /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\T1/cmr/m/n/9 (+20) George et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\T1/cmr/m/n/9 (+20) GoI AQI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/cmr/m/n/9 (+20) Dataset
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 134--135
+\T1/cmr/m/n/9 (+20) with tem-po-ral Trans-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 134--135
+\T1/cmr/m/n/9 (+20) former for con-tin-u-ous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\T1/cmr/m/n/9 (+20) Multivariate Encoder-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[]|\T1/cmr/m/n/9 (+20) Effectively cap-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+\T1/cmr/m/n/9 (+20) multi-pollutant se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+\T1/cmr/m/n/9 (+20) quen-tial trends and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/cmr/m/n/9 (+20) Beijing 6-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\T1/cmr/m/n/9 (+20) pollutant
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 138--138
+[]|\T1/cmr/m/n/9 (+20) STL De-com-po-si-tion +
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 138--139
+[]|\T1/cmr/m/n/9 (+20) Achieves 49.1% av-er-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 138--139
+\T1/cmr/m/n/9 (+20) age MAPE re-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/cmr/m/n/9 (+20) Dongguan,
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 140--140
+\T1/cmr/m/n/9 (+20) China (10-yr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]|\T1/cmr/m/n/9 (+20) Combines multi-scale
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 140--141
+\T1/cmr/m/n/9 (+20) de-com-po-si-tion, spa-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+\T1/cmr/m/n/9 (+20) long-term tem-po-ral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\T1/cmr/m/n/9 (+20) ST-GNN + Remote-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+\T1/cmr/m/n/9 (+20) Sensing Hy-per-spec-tral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]|\T1/cmr/m/n/9 (+20) Demonstrates cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\T1/cmr/m/n/9 (+20) Spatio-Temporal Field
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\T1/cmr/m/n/9 (+20) Neu-ral Net-work (ST-
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 144--145
+\T1/cmr/m/n/9 (+20) tin-u-ous field; achieves
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 144--145
+\T1/cmr/m/n/9 (+20) SOTA in-fer-ence ac-cu-
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 144--145
+\T1/cmr/m/n/9 (+20) racy at un-mon-i-tored
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 146--146
+[]|\T1/cmr/m/n/9 (+20) Directed Graph Ad-ja-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T1/cmr/m/n/9 (+20) Garcia-Gasulla
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T1/cmr/m/n/9 (+20) Madrid sta-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 148--148
+[]|\T1/cmr/m/n/9 (+20) Attention-based Graph
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 148--148
+\T1/cmr/m/n/9 (+20) Neu-ral Net-work (A3T-
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 148--149
+[]|\T1/cmr/m/n/9 (+20) Models non-Euclidean
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 148--149
+\T1/cmr/m/n/9 (+20) ur-ban sta-tion topolo-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 150--150
+[]|\T1/cmr/m/n/9 (+20) K-Means Clus-ter-ing +
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 150--151
+[]|\T1/cmr/m/n/9 (+20) Identifies 4 pol-lu-tion
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 150--151
+\T1/cmr/m/n/9 (+20) regimes; RF clas-si-fier
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 150--151
+\T1/cmr/m/n/9 (+20) achieves 97.49% ac-cu-
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 150--151
+\T1/cmr/m/n/9 (+20) racy with NO$[]$/PM$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T1/cmr/m/n/9 (+20) CCAAPS
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 152--152
+[]|\T1/cmr/m/n/9 (+20) Spectral Clus-ter-ing vs.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]|\T1/cmr/m/n/9 (+20) Identifies 6--7 PM$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+\T1/cmr/m/n/9 (+20) source fac-tors with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+\T1/cmr/m/n/9 (+20) strong cor-re-la-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+\T1/cmr/m/n/9 (+20) to stan-dard PMF
+ []
+
+[2]
+ignored: Infinite glue shrinkage found in box being split [3]
+Overfull \hbox (47.74004pt too wide) in paragraph at lines 170--175
+\T1/cmtt/m/n/10 temperature\T1/cmr/m/n/10 (-20) , \T1/cmtt/m/n/10 rain\T1/cmr/m
+/n/10 (-20) , \T1/cmtt/m/n/10 pressure\T1/cmr/m/n/10 (-20) , \T1/cmtt/m/n/10 pr
+ecipitation\T1/cmr/m/n/10 (-20) , \T1/cmtt/m/n/10 wind_speed\T1/cmr/m/n/10 (-20
+) , \T1/cmtt/m/n/10 clouds\T1/cmr/m/n/10 (-20) , and \T1/cmtt/m/n/10 wind_direc
+tion\T1/cmr/m/n/10 (-20) .
+ []
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 204.
+[4]
+<autocorrelation_E421.png, id=33, 1004.0712pt x 298.2342pt>
+File: autocorrelation_E421.png Graphic file (type png)
+<use autocorrelation_E421.png>
+Package pdftex.def Info: autocorrelation_E421.png  used on input line 245.
+(pdftex.def)             Requested size: 347.12354pt x 103.10478pt.
+ [5]
+<stl_decomposition_E421.png, id=42, 1000.6986pt x 711.6186pt>
+File: stl_decomposition_E421.png Graphic file (type png)
+<use stl_decomposition_E421.png>
+Package pdftex.def Info: stl_decomposition_E421.png  used on input line 277.
+(pdftex.def)             Requested size: 347.12354pt x 246.84427pt.
+ [6 <./autocorrelation_E421.png>]
+! Undefined control sequence.
+l.307 ...ate input window ($\mathbf{X} \in \mathbb
+                                                  {R}^{48 \times 7}$).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7 <./stl_decomposition_E421.png>] [8]
+<final_model_comparison.png, id=60, 1076.3412pt x 360.3864pt>
+File: final_model_comparison.png Graphic file (type png)
+<use final_model_comparison.png>
+Package pdftex.def Info: final_model_comparison.png  used on input line 387.
+(pdftex.def)             Requested size: 347.12354pt x 116.22784pt.
+<mape_vs_horizon_classical.png, id=61, 714.5094pt x 353.6412pt>
+File: mape_vs_horizon_classical.png Graphic file (type png)
+<use mape_vs_horizon_classical.png>
+Package pdftex.def Info: mape_vs_horizon_classical.png  used on input line 394.
+
+(pdftex.def)             Requested size: 347.12354pt x 171.80716pt.
+<deep_learning_results.png, id=62, 1003.1076pt x 357.4956pt>
+File: deep_learning_results.png Graphic file (type png)
+<use deep_learning_results.png>
+Package pdftex.def Info: deep_learning_results.png  used on input line 409.
+(pdftex.def)             Requested size: 347.12354pt x 123.70705pt.
+<per_station_mae_comparison.png, id=63, 1147.6476pt x 499.1448pt>
+File: per_station_mae_comparison.png Graphic file (type png)
+<use per_station_mae_comparison.png>
+Package pdftex.def Info: per_station_mae_comparison.png  used on input line 439
+.
+(pdftex.def)             Requested size: 347.12354pt x 150.97083pt.
+ [9 <./final_model_comparison.png>]
+[10 <./mape_vs_horizon_classical.png>] [11 <./deep_learning_results.png>]
+Underfull \hbox (badness 7186) in paragraph at lines 554--557
+[]\T1/cmr/m/n/9 (+20) European Par-lia-ment and of the Coun-cil: Di-rec-tive (E
+U) 2024/2881
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 554--557
+\T1/cmr/m/n/9 (+20) on Am-bi-ent Air Qual-ity and Cleaner Air for Eu-rope. Off.
+ J. Eur.
+ []
+
+[12 <./per_station_mae_comparison.png>]
+Underfull \hbox (badness 4084) in paragraph at lines 559--561
+[]\T1/cmr/m/n/9 (+20) Vrban£i£, G.: Air Qual-ity Dataset. Mende-ley Data, Ver-s
+ion 2 (2026).
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 579--582
+[]\T1/cmr/m/n/9 (+20) Cai, J., Fu, X., Su, B., Fang, H.: Air qual-ity pre-dic-t
+ion based on
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 610--614
+[]\T1/cmr/m/n/9 (+20) He, S., Liu, Y., Peng, J., Xu, D., Wang, Y.: A CEEMDAN-GN
+N-
+ []
+
+[13] (./paper.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5775 strings out of 469515
+ 88225 string characters out of 5470808
+ 552787 words of memory out of 5000000
+ 34130 multiletter control sequences out of 15000+600000
+ 653318 words of font info for 204 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 57i,11n,65p,1082b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1
+/public/cm-super/sfbx0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
+r/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb>
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fon
+ts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf-dist/fonts/type1/public
+/cm-super/sftt1000.pfb>
+Output written on paper.pdf (13 pages, 1349467 bytes).
+PDF statistics:
+ 194 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 54303 words of extra memory for PDF output out of 61914 (max. 10000000)
+

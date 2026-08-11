@@ -1,0 +1,98 @@
+\relax 
+\citation{ref_who2021}
+\citation{ref_eu2024}
+\@writefile{toc}{\contentsline {title}{Comparative Analysis of Machine Learning and Deep Learning Approaches for Hourly PM\textsubscript  {10} Forecasting over a Multi-Station Slovenian Air Quality Network}{1}{}\protected@file@percent }
+\@writefile{toc}{\authcount {2}}
+\@writefile{toc}{\contentsline {author}{Aniket Shahade\unskip {} \and Vaibhav Sharma}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
+\citation{ref_tcn_bilstm}
+\citation{ref_stgnn_pm25,ref_stgnn_madrid,ref_stgraph_beijing}
+\citation{ref_xgb_aqi2025}
+\citation{ref_lstm_multivariate}
+\citation{ref_tcn_bilstm}
+\citation{ref_ceemdan_gnn}
+\citation{ref_stgnn_pm25}
+\citation{ref_stfield}
+\citation{ref_stgraph_beijing}
+\citation{ref_stgnn_madrid}
+\citation{ref_cairo_cluster}
+\citation{ref_spectral_sa}
+\@writefile{toc}{\contentsline {paragraph}{Contributions.}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{2}{}\protected@file@percent }
+\gdef \LT@i {\LT@entry 
+    {1}{71.08643pt}\LT@entry 
+    {1}{59.70549pt}\LT@entry 
+    {1}{102.38463pt}\LT@entry 
+    {1}{99.53917pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{Comprehensive literature review compilation of recent air quality forecasting, spatial inference, and regime classification studies.}}{3}{}\protected@file@percent }
+\newlabel{tab:lit_review_longtable}{{1}{3}{}{table.1}{}}
+\citation{ref_dataset}
+\citation{ref_arso}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Dataset and Data Profiling}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Dataset Overview}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Schema and Missingness}{4}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Missingness per column across all 21 stations (296{,}100 total rows).}}{5}{}\protected@file@percent }
+\newlabel{tab:missingness}{{2}{5}{}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Semantic Ambiguity: \texttt  {precipitation} Column}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Exploratory Findings}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Methodology}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}The Lag-Feature Flaw and Its Resolution}{5}{}\protected@file@percent }
+\citation{ref_tcn_bilstm}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Autocorrelation function (left) and lag-scatter plots at 1h and 24h (right) for PM\textsubscript  {10} at station E421. The ACF confirms significant autocorrelation up to 72~hours and a pronounced 24-hour seasonal component.}}{6}{}\protected@file@percent }
+\newlabel{fig:acf}{{1}{6}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}STL Decomposition}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Model Architectures}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Naive Persistence Baseline.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{SARIMAX.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Random Forest (Fixed).}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces STL decomposition of PM\textsubscript  {10} at station E421 (period $=$~24~h, robust~$=$~True). From top: observed series, trend ($T_t$), seasonal ($S_t$), residual ($R_t$). The seasonal component clearly captures the diurnal cycle; the trend shows winter escalation.}}{7}{}\protected@file@percent }
+\newlabel{fig:stl}{{2}{7}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{XGBoost.}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{LSTM (Sliding Window).}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{TCN-BiLSTM with STL Augmentation.}{7}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 1-hour-ahead PM\textsubscript  {10} forecasting results for station E421. Best results in \textbf  {bold}.}}{8}{}\protected@file@percent }
+\newlabel{tab:results}{{3}{8}{}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Evaluation Protocol}{8}{}\protected@file@percent }
+\newlabel{eq:mae}{{1}{8}{}{equation.1}{}}
+\newlabel{eq:rmse}{{2}{8}{}{equation.2}{}}
+\newlabel{eq:mape}{{3}{8}{}{equation.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Results}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Single-Station Comparison (E421, 1h Ahead)}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Key observations.}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces MAE, RMSE, and MAPE for all six models evaluated on PM\textsubscript  {10} 1-hour-ahead forecasting at station E421. TCN-BiLSTM (STL-augmented) achieves the lowest MAE and RMSE.}}{9}{}\protected@file@percent }
+\newlabel{fig:comparison}{{3}{9}{}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Aggregate MAE and MAPE across all 21 stations (1h ahead, mean~$\pm $~std).}}{9}{}\protected@file@percent }
+\newlabel{tab:multistation}{{4}{9}{}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Deep Learning Training}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Multi-Station Evaluation (All 21 Stations)}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces MAPE vs.\ forecast horizon (1h, 6h, 24h) for classical models. The naive baseline degrades rapidly at longer horizons. XGBoost with lag features shows the most stable performance across horizons.}}{10}{}\protected@file@percent }
+\newlabel{fig:horizon}{{4}{10}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}The Lag-Feature Imperative}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Why Deep Learning Wins at Short Horizons}{10}{}\protected@file@percent }
+\citation{ref_stgraph_beijing,ref_stgnn_pm25}
+\citation{ref_cairo_cluster}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Left: Training and validation loss curves for LSTM and TCN-BiLSTM. TCN-BiLSTM converges faster and to a lower validation loss. Right: 300-hour forecast panel from the test set—TCN-BiLSTM tracks PM\textsubscript  {10} spikes more accurately than LSTM.}}{11}{}\protected@file@percent }
+\newlabel{fig:dlresults}{{5}{11}{}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Implications for Product Development}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Limitations and Future Work}{11}{}\protected@file@percent }
+\citation{ref_dataset}
+\bibcite{ref_who2021}{1}
+\bibcite{ref_eu2024}{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Per-station MAE for all 21 stations (sorted by ascending MAE), comparing Naive Persistence, Random Forest, and XGBoost. Station E420 is the easiest to forecast (MAE~$\approx $~0.80); station E802 is the hardest (MAE~$\approx $~8.01).}}{12}{}\protected@file@percent }
+\newlabel{fig:perstation}{{6}{12}{}{figure.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{12}{}\protected@file@percent }
+\bibcite{ref_dataset}{3}
+\bibcite{ref_arso}{4}
+\bibcite{ref_tcn_bilstm}{5}
+\bibcite{ref_stgnn_pm25}{6}
+\bibcite{ref_stgraph_beijing}{7}
+\bibcite{ref_stfield}{8}
+\bibcite{ref_stgnn_madrid}{9}
+\bibcite{ref_cairo_cluster}{10}
+\bibcite{ref_spectral_sa}{11}
+\bibcite{ref_xgb_aqi2025}{12}
+\bibcite{ref_ceemdan_gnn}{13}
+\bibcite{ref_lstm_multivariate}{14}
+\bibcite{ref_sarimax_base}{15}
+\gdef \@abspage@last{13}
